@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'AntroVectra';
+    src: url('Antro_Vectra.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'AntroVectraBold';
+    src: url('Antro_Vectra_Bolder.otf');
+    font-weight: 800; /* 800 is the value for extra bold */
+}
+
+.handwriting {
+    font-family: 'AntroVectra';
+    font-weight: 800;
+}
+
+.handwriting-bold {
+    font-family: 'AntroVectraBold';
+    font-weight: bolder;
+}
+
+.hearts {
+    background-image: url('./hearts.gif');
+    background-size:200%;
+}
+
+.letter {
+    background-image: url('./letter.jpg');
+    background-size:200%;
+}
